@@ -4,8 +4,8 @@ Plugin Name: Bootstrap Card Widget
 Plugin URI: https://pureservices.com.au
 Description: Add a Bootstrap Card to the sidebar (requires Bootstrap 4).
 Version: 1.0.0
-Author: Pure Services
-Author URI: https://pureservices.com.au
+Author: Mathew Callaghan
+Author URI: https://mathew.callaghan.xyz/
 */
 
 
