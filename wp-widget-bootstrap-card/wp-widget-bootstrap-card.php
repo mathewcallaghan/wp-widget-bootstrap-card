@@ -17,6 +17,11 @@ Author URI: https://mathew.callaghan.xyz/
  * @since 4.4.0
  */
 
+// If this file is called directly, abort.
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
+
 class WP_Widget_Bootstrap_Card extends WP_Widget {
 
 	/**
