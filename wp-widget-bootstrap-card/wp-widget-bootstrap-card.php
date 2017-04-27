@@ -92,7 +92,7 @@ class WP_Widget_Bootstrap_Card extends WP_Widget {
 		<?php if ( ! empty( $title ) ) {
 			echo '<div class="card-title">' . $args['before_title'] . $title . $args['after_title'] . '</div>';
 		} ?>
-			<p class="card-text"><?php echo !empty( $instance['filter'] ) ? wpautop( $text ) : $text; ?></p>
+			<div class="card-text"><?php echo !empty( $instance['filter'] ) ? wpautop( $text ) : $text; ?></div>
 				</div>
 		</div>
 		<?php
