@@ -79,7 +79,9 @@ class WP_Widget_Bootstrap_Card extends WP_Widget {
 		 * @param WP_Widget_Bootstrap_Card $this        Current Bootstrap Card widget instance.
 		 */
 		$text = apply_filters( 'widget_text', $widget_text, $instance, $this );
-		$img = apply_filters( 'card_img', $card_img, $instance, $this ); ?>
+		$img = apply_filters( 'card_img', $card_img, $instance, $this ); 	
+		
+		echo $args['before_widget'];?>
 
 		<div class="card">
 			<?php if ( ! empty( $card_img ) ) { ?>
@@ -94,6 +96,7 @@ class WP_Widget_Bootstrap_Card extends WP_Widget {
 				</div>
 		</div>
 		<?php
+		echo $args['after_widget'];
 	}
 
 	/**
