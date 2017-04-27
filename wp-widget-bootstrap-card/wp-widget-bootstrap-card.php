@@ -1,12 +1,21 @@
 <?php
-/*
-Plugin Name: Bootstrap Card Widget
-Plugin URI: https://pureservices.com.au
-Description: Add a Bootstrap Card to the sidebar (requires Bootstrap 4).
-Version: 1.0.0
-Author: Mathew Callaghan
-Author URI: https://mathew.callaghan.xyz/
-*/
+/**
+ * @link              https://github.com/mathewcallaghan/wp-widget-bootstrap-card/
+ * @since             1.0.0
+ * @package           Bootstrap_Card_Widget
+ *
+ * @wordpress-plugin
+ * Plugin Name:       Bootstrap Card Widget
+ * Plugin URI:        https://github.com/mathewcallaghan/wp-widget-bootstrap-card/
+ * Description:       Add a Bootstrap Card to the sidebar (requires Bootstrap 4).
+ * Version:           1.0.0
+ * Author:            Mathew Callaghan
+ * Author URI:        https://mathew.callaghan.xyz/
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain:       bootstrap-card-widget
+ * Domain Path:       /languages
+ */
 
 
 /**
@@ -37,7 +46,7 @@ class WP_Widget_Bootstrap_Card extends WP_Widget {
 			'customize_selective_refresh' => true,
 		);
 		$control_ops = array( 'width' => 400, 'height' => 350 );
-		parent::__construct( 'bootstrap-card', __( 'Bootstrap Card' ), $widget_ops, $control_ops );
+		parent::__construct( 'bootstrap_card', __( 'Bootstrap Card' ), $widget_ops, $control_ops );
 	}
 
 	/**
