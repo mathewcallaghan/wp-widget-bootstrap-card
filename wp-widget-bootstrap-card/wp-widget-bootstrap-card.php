@@ -8,7 +8,7 @@
  * Plugin Name:       Bootstrap Card Widget
  * Plugin URI:        https://github.com/mathewcallaghan/wp-widget-bootstrap-card/
  * Description:       Add a Bootstrap Card to the sidebar (requires Bootstrap 4).
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Mathew Callaghan
  * Author URI:        https://mathew.callaghan.xyz/
  * License:           GPL-2.0+
@@ -87,7 +87,7 @@ class WP_Widget_Bootstrap_Card extends WP_Widget {
 			<?php if ( ! empty( $card_img ) ) { ?>
 			<img class="card-img-top img-fluid" src="<?php echo !empty( $instance['filter'] ) ? wpautop( $img ) : $img; ?>" alt="">
 			<?php } ?>
-				<div class="card-block">
+				<div class="card-body">
 				
 		<?php if ( ! empty( $title ) ) {
 			echo '<div class="card-title">' . $args['before_title'] . $title . $args['after_title'] . '</div>';
