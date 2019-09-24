@@ -8,11 +8,12 @@
  * Plugin Name:       Bootstrap Card Widget
  * Plugin URI:        https://github.com/mathewcallaghan/wp-widget-bootstrap-card/
  * Description:       Add a Bootstrap Card to the sidebar (requires Bootstrap 4).
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Mathew Callaghan
  * Author URI:        https://mathew.callaghan.xyz/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * GitHub Plugin URI: mathewcallaghan/wp-widget-bootstrap-card
  * Text Domain:       bootstrap-card-widget
  * Domain Path:       /languages
  */
