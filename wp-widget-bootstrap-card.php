@@ -13,7 +13,6 @@
  * Author URI:        https://mathew.callaghan.xyz/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * GitHub Plugin URI: mathewcallaghan/wp-widget-bootstrap-card
  * Text Domain:       bootstrap-card-widget
  * Domain Path:       /languages
  */
